@@ -12,7 +12,9 @@ The data for bill amounts is very skewed. I will need to use a model that is res
 
 ### Bill Amount Outliers 
 
+![bill boxplot](https://user-images.githubusercontent.com/66225041/129910285-2e363795-3673-430f-b6bd-a4bc72fee6a5.png)
 
+There are many outliers for bill amount. However, since there are such a large numbers of outliers, I plan to create a model incorporating the outliers and compare it against a model without the outliers. This number of outliers means that this may be a pattern that should be included as part of the model, as opposed to cases where a few outliers skew the rest of the data. 
 
 ### Heatmap of Medical History and Amount of Bill 
 
