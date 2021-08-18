@@ -46,6 +46,12 @@ I created individual boxplots of the medical histories compared to the amount of
 
 Once again, individual visualizations of each preop medication does not reveal any correlation with the amounts of the bills. 
 
+### Resident Status and Amount of Bill
+
+![resident status by amount ](https://user-images.githubusercontent.com/66225041/129913272-228a380a-7676-467f-8dcb-44f0706b83a0.png)
+
+It appears that resident status has a noticeable effect on the amount of the bills. Foreigners receive much higher bills than permanent residents and Singapore citizens. This makes sense as citizens probably have more reliable access to health insurance. This is assuming that the bill amounts charged represent the amount that the patient was asked to pay after insurance payments have been applied. 
+
 
 
 ## Modeling
