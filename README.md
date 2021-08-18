@@ -90,7 +90,9 @@ I implemented both algorithms, which resulted in very high values for the mean a
 
 ### Most Important Features for XGBoost Model - All Data
 
-In order to see if dropping outliers over $20,000 improved the model, I modified the datatset to exclude these values. After evaluating the data with XGBoost again I found an MAE of 4416, the best value so far. The most important feature is and the least important feature among the top ten is 
+![xgboost 1](https://user-images.githubusercontent.com/66225041/129935377-b78771e6-274b-49b6-bfb7-4eb6de2eb0dc.png)
+
+In order to see if dropping outliers over $20,000 improved the model, I modified the datatset to exclude these values. After evaluating the data with XGBoost again I found an MAE of 4416, the best value so far. The most important feature is whether a patient is a foreigner and the least important feature among the top ten is whether they had symptom 2.  
 
 ### Most Important Features for XGBoost Model - Outliers Removed
 
