@@ -34,7 +34,19 @@ There is very little correlation between the preop medication administered and t
 
 There is some correlation between several of the symptoms and the amount of the bill, particularly symptom 5. This symptom maybe be one that requires treatment that is more costly than the treatment for the other symptoms. 
 
+### Medical History by Bill Amount
+
+![Medical History by bill amount](https://user-images.githubusercontent.com/66225041/129910973-b7be483a-e6c4-4bfa-b263-882549f43b93.png)
+
+I created individual boxplots of the medical histories compared to the amount of the bill. This is a different visualization of the information shown in the heatmap correlation, but I think it further illustrates that a slight difference can be seen for medical history 1, but otherwise there is not much of an onservable difference. 
+
+### Preop Medication by Bill Amount 
 
 
 
+## Modeling
+
+### Random Forest 
+
+Random forest builds a number of decision trees and merges them to arrive at a result that is best able to predict the data. 
 
