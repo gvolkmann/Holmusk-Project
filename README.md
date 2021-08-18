@@ -52,7 +52,11 @@ Once again, individual visualizations of each preop medication does not reveal a
 
 It appears that resident status has a noticeable effect on the amount of the bills. Foreigners receive much higher bills than permanent residents and Singapore citizens. This makes sense as citizens probably have more reliable access to health insurance. This is assuming that the bill amounts charged represent the amount that the patient was asked to pay after insurance payments have been applied. 
 
+### Race and Amount of Bill
 
+![race and bill amount ](https://user-images.githubusercontent.com/66225041/129915635-bedd7564-0a7f-492a-95b9-4fa7b2b72033.png)
+
+There seems to be a correlation between race and the amount of the bill. This may be tied to people of various races be more or less likely to be permanent residents of Singapore or foreigners. It appears that Malay people have the highest bills while Chinese people have the lowest bills. It also appears that women have lower bills in general. I'm not sure what the explanation for this could be. Women are often charged more for health insurance as they are deemed "higher risk" patients. Perhpas women are more likely to have health insurance and therefore receive lower bills. 
 
 ## Modeling
 
