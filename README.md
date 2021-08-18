@@ -64,6 +64,13 @@ There seems to be a correlation between race and the amount of the bill. This ma
 
 ### Weight by Amount of Bill 
 
+![weight by bill](https://user-images.githubusercontent.com/66225041/129923021-d3d564b6-3402-440e-86f8-a7706703267b.png)
+
+Weight and age seem to be slightly associated with a higher bill amount, particularly age. It seems that there are low bills for people of all ages and then very high bills are mostly found among middle-age or older people, which makes sense intuitively. There may also be a slight relationship between weight and bill amount where people who weigh more are more likely to have a higher bill. 
+
+### Amount of Bill by Gender 
+
+
 
 
 ## Modeling
