@@ -42,6 +42,10 @@ I created individual boxplots of the medical histories compared to the amount of
 
 ### Preop Medication by Bill Amount 
 
+![preop medications by amount](https://user-images.githubusercontent.com/66225041/129912990-d0504dbf-4d16-426e-bdaf-5755d27d6f7a.png)
+
+Once again, individual visualizations of each preop medication does not reveal any correlation with the amounts of the bills. 
+
 
 
 ## Modeling
