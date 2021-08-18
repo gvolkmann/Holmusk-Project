@@ -6,6 +6,12 @@ The provenance of the data was not provided. Values that differed slightly in th
 
 ### Distribution of the Bill Amounts 
 
+![distribution of bill amount](https://user-images.githubusercontent.com/66225041/129909655-ecd87703-9224-453f-b845-56500259ebce.png)
+
+The data for bill amounts is very skewed. I will need to use a model that is resilient against skewness or transform this data using a log transformation, or other type of transformation. I also want to see if there are any outliers with the data since the range is so large. 
+
+### Bill Amount Outliers 
+
 
 
 ### Heatmap of Medical History and Amount of Bill 
