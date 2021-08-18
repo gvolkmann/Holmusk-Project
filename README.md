@@ -70,12 +70,32 @@ Weight and age seem to be slightly associated with a higher bill amount, particu
 
 ### Amount of Bill by Gender 
 
+![gender bill](https://user-images.githubusercontent.com/66225041/129923597-b762031a-64e9-456c-be24-cac741ef3ea0.png)
 
-
+Although there is a slight difference in bill amounts for separate genders seen between different races, in general bill amounts seem similar between the genders surveyed in this dataset. There are outliers for bill amounts for men that make it seem like it is more likely for a man to have a very high bill. 
 
 ## Modeling
 
 ### Random Forest 
 
-Random forest builds a number of decision trees and merges them to arrive at a result that is best able to predict the data. 
+Random forest builds a number of decision trees and merges them to arrive at a result that is best able to predict the data. It is a versatile algorithm that can be used for both classification and regression. Random forests are not prone to overfitting, but they can be slow depending on the number of trees generated and the amount of data. For this dataset, random forest is an excellent candidate. 
+
+### XGBoost 
+
+The extreme gradient boosting model can offer fast computational speeds and is excellent at creating regression models. It is a decision tree based algorithm and creates new models to correct the errors made by existing models. 
+
+## Testing Different Models 
+
+I implemented both algorithms, which resulted in very high values for the mean absolute error (MAE), or the difference in amount of the bill predicted by the model versus the actual bill amounts. For the first Random Forest the MAE was 7256 degrees, or about $7,256 off from the actual value of the bill. This is a high value, however, keeping in mind that there is a range of bill amounts that is more than $80,000, this might not be a bad estimate. The MAE of the XGBoost algorithm was 6970, which is a slightly better estimate. The most important features for the XGBoost algorithm were whether patients were foreigners, Malay, Chinese, a Singapore citizen, and whether they had symptom 5 or symptom 3. The most important feature is whether a patient is a foreigner. 
+
+### Most Important Features for XGBoost Model - All Data
+
+In order to see if dropping outliers over $20,000 improved the model, I modified the datatset to exclude these values. After evaluating the data with XGBoost again I found an MAE of 4416, the best value so far. The most important feature is and the least important feature among the top ten is 
+
+### Most Important Features for XGBoost Model - Outliers Removed
+
+
+The XGBoost algorithm was best at predicting the amount of a patient bill and the top ten most important features driving cost for bills under $20,000 are: 
+
+These results indicate that different features drive the cost of care for different levels of bills. Larger bills may be more affected by 
 
