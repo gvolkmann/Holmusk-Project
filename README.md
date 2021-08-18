@@ -96,8 +96,11 @@ In order to see if dropping outliers over $20,000 improved the model, I modified
 
 ### Most Important Features for XGBoost Model - Outliers Removed
 
+![xgboost 2 ](https://user-images.githubusercontent.com/66225041/129935717-b874cc32-f8cf-4abd-8f69-dee2a2ada63b.png)
 
-The XGBoost algorithm was best at predicting the amount of a patient bill and the top ten most important features driving cost for bills under $20,000 are: 
+The XGBoost algorithm was best at predicting the amount of a patient bill and the top ten most important features driving cost for bills under $20,000 are whether a patient is Malay, whether they have medical history 1, whether they are a Singapore citizen, whether they have symptom 5, whether they are a foreigner, whether they have medical history 6, whether they are Chinese, and whether they have symptoms 2, 3, or 4. 
 
-These results indicate that different features drive the cost of care for different levels of bills. Larger bills may be more affected by 
+These results indicate that different features drive the cost of care for different levels of bills. Foreigners are more likely to accrue large bills, as are people with symptom 5 and people who are Malay. This may be due to the racial composition found among Singapore citizens and permanent residents. Being a Singapore citizen results in a lower bill generally. 
+
+Overall, where patients live and their race drives the cost of care, along with symptoms 2, 3,4 and 5, as well as medical history 1 and 6. 
 
